@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    background-color: white;
+}
+
+.full {
+    width: 1093px;
+    height: 431px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fotoMenu {
+    display: block;
+    float: left;
+    width: 431px;
+    height: 431px;
+}
+
+#muscle {
+    width: 431px;
+    height: 431px;
+}
+
+.right {
+    display: block;
+    width: 662px;
+    height: 431px;
+    float: right;
+}
+
+.example {
+    display: block;
+    width: 331px;
+    height: 431px;
+    float: left;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.txxt {
+    display: block;
+    width: 331px;
+    height: 431px;
+    float: right;
+    background-color: white;
+    margin-top: 20px;
+}

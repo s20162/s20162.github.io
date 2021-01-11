@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<meta charset="UTF-8">
+
+<head>
+    <title>Strona Projektowa</title>
+    <script src="cos.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <div class="full">
+        <div class="fotoMenu">
+            <p><img id="muscle" src="muscle.jpg" alt="sylwetka" usemap="#workmap"></p>
+            <map name="workmap">
+                <area alt="legs1" title="legs1" coords="73,201,150,470" shape="rect" onclick='funlegs()'>
+                <area alt="legs2" title="legs2" coords="267,177,345,577" shape="rect" onclick="funlegs()">
+                <area alt="back" title="back" coords="265,69,341,172" shape="rect" onclick="funback()">
+                <area alt="chest" title="chest" coords="74,71,146,133" shape="rect" onclick="funchest()">
+                <area alt="arm1" title="arm1" coords="152,73,200,236" shape="rect" onclick="funarm()">
+                <area alt="arm2" title="arm2" coords="31,68,70,244" shape="rect" onclick="funarm()">
+                <area alt="arm3" title="arm3" coords="215,69,261,244" shape="rect" onclick="funarm()">
+                <area alt="arm4" title="arm4" coords="344,68,387,243" shape="rect" onclick="funarm()">
+              </map>
+
+        </div>
+        <div class="right">
+            <div class="example">
+                <p id="lewa">Kliknij na partie mięśniową</p>
+            </div>
+            <div class="txxt">
+                <p id="prawa"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
